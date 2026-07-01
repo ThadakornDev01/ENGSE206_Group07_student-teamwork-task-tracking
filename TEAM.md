@@ -9,7 +9,7 @@
 | กลุ่ม | Group 07 |
 | ชื่อโครงงาน | [ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก] / teamwork-task-tracking |
 | Case Card | [Case 07: ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก] |
-| Repository URL | [วาง URL GitHub] |
+| Repository URL | https://github.com/ThadakornDev01/ENGSE206_Group07_student-teamwork-task-tracking/tree/main |
 | ช่องทางสื่อสารหลัก | [LINE / Discord /] |
 | วันประชุมประจำ | [วัน/เวลา] |
 
