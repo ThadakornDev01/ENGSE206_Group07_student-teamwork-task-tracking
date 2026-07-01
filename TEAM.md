@@ -7,7 +7,7 @@
 | รายการ | รายละเอียด |
 |---|---|
 | กลุ่ม | Group 07 |
-| ชื่อโครงงาน | [ชื่อระบบภาษาไทย] / teamwork-task-tracking |
+| ชื่อโครงงาน | [ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก] / teamwork-task-tracking |
 | Case Card | [หมายเลขและชื่อ Case Card ที่อาจารย์มอบหมาย] |
 | Repository URL | [วาง URL GitHub] |
 | ช่องทางสื่อสารหลัก | [LINE / Discord /] |
