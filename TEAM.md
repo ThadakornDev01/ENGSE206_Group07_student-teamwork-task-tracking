@@ -22,7 +22,7 @@
 | [68543210052-5] | [นายธดากรณ์  เชื้อโต่ง] | Team Coordinator | ประสานงาน/ติดตามความคืบหน้า | meeting notes, worklog |
 | [ID] | [ชื่อ] | Requirements Lead | elicitation / backlog / SRS | requirement docs |
 | [68543210052-5] | [นายธดากรณ์  เชื้อโต่ง] | Design Lead | diagrams / architecture / detailed design | design docs, diagrams |
-| [ID] | [ชื่อ] | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
+| [68543210023-6] | [นายญาณากร หวังระบอบ] | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
 
 ## กติกาทีม
 
