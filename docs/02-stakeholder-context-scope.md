@@ -12,13 +12,13 @@
 | **สมาชิกกลุ่ม** | Primary user | ต้องการเห็นหน้าที่รับผิดชอบและกำหนดส่งของตนเองชัดเจน รวมถึงสามารถแนบหลักฐานการทำงานได้ง่าย | กลาง | observation / interview |
 | **เพื่อน Reviewer** | Secondary user | ต้องการดูหลักฐานบันทึกการทำงานของเพื่อนในทีม เพื่อนำมาใช้ประเมิน Peer evaluation ได้อย่างตรงไปตรงมา | ต่ำ | review / observation |
 
-![img Stakeholder map](01-problem-brief-v0.1.md/diagrams/context/Stakeholder_Map.pngd)
+![Stakeholder map](../diagrams/context/Stakeholder_Map.png)
 
 ## 2. System Context
 
 อธิบายขอบเขตระบบ ความสัมพันธ์กับผู้ใช้/ระบบภายนอก และข้อมูลที่เข้าออก
 
-![img Stakeholder map](01-problem-brief-v0.1.md/diagrams/context/Stakeholder_Map.pngd)
+![System Context Diagram](../diagrams/context/system-context.png)
 
 > หากยังไม่มีไฟล์ภาพ ให้สร้าง source diagram และ export ชื่อ `system-context.png`
 
