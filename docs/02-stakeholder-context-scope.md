@@ -7,15 +7,18 @@
 
 | Stakeholder | Category | Needs / Goals | Influence | Engagement Approach |
 |---|---|---|---|---|
-| [Role] | Primary user / Secondary user / External | [กรอก] | สูง/กลาง/ต่ำ | interview / observation / review |
+| **หัวหน้ากลุ่ม** | Primary user | ต้องการเครื่องมือที่ช่วยแบ่งงานและติดตามความคืบหน้าของสมาชิกแต่ละคนได้ชัดเจน เพื่อลดความยุ่งยากในการตามงาน | สูง | interview / observation |
+| **อาจารย์ผู้สอน** | Secondary user | ต้องการมองเห็นภาพรวมการทำงานและหลักฐานการมีส่วนร่วมของนักศึกษาในกลุ่ม เพื่อใช้ประกอบการประเมินคะแนนอย่างเป็นธรรม | สูง | interview |
+| **สมาชิกกลุ่ม** | Primary user | ต้องการเห็นหน้าที่รับผิดชอบและกำหนดส่งของตนเองชัดเจน รวมถึงสามารถแนบหลักฐานการทำงานได้ง่าย | กลาง | observation / interview |
+| **เพื่อน Reviewer** | Secondary user | ต้องการดูหลักฐานบันทึกการทำงานของเพื่อนในทีม เพื่อนำมาใช้ประเมิน Peer evaluation ได้อย่างตรงไปตรงมา | ต่ำ | review / observation |
 
-> แนบรูป stakeholder map ที่ `diagrams/context/` และลิงก์ไว้ที่นี่
+![img Stakeholder map](01-problem-brief-v0.1.md/diagrams/context/Stakeholder_Map.pngd)
 
 ## 2. System Context
 
 อธิบายขอบเขตระบบ ความสัมพันธ์กับผู้ใช้/ระบบภายนอก และข้อมูลที่เข้าออก
 
-![System Context](../diagrams/context/system-context.png)
+![img Stakeholder map](01-problem-brief-v0.1.md/diagrams/context/Stakeholder_Map.pngd)
 
 > หากยังไม่มีไฟล์ภาพ ให้สร้าง source diagram และ export ชื่อ `system-context.png`
 
