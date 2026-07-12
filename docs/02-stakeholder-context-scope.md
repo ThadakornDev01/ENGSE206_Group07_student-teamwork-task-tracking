@@ -17,7 +17,7 @@
 ## 2. System Context
 
 อธิบายขอบเขตระบบ ความสัมพันธ์กับผู้ใช้/ระบบภายนอก และข้อมูลที่เข้าออก
-
+ส่งเข้าระบบเพิ่ม เพื่อการทำงานกันเป็นระบบและสามารถประเมินตัวเองได้ก่อนส่งงาน
 ![System Context Diagram](../diagrams/context/system-context.png)
 
 > หากยังไม่มีไฟล์ภาพ ให้สร้าง source diagram และ export ชื่อ `system-context.png`
