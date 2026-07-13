@@ -37,7 +37,7 @@
 
 ## 2. Stakeholder Inventory and Map
 
-![Stakeholder Map](../diagrams/stakeholders/stakeholder-map.png)
+![Stakeholder Map](/diagrams/stakeholders/w02-stakeholder-map.png)
 
 > **Source:** `diagrams/stakeholders/stakeholder-map.drawio`
 
@@ -77,7 +77,7 @@
 
 อธิบายขอบเขตระบบ ความสัมพันธ์กับผู้ใช้ และข้อมูลที่เข้าออก เพื่อการทำงานกันเป็นระบบและสามารถประเมินตัวเองได้ก่อนส่งงาน
 
-![System Context Diagram](../diagrams/context/system-context.png)
+![System Context Diagram](/diagrams/context/w02-system-context.png)
 
 > **Source:** `diagrams/context/system-context.drawio`
 
