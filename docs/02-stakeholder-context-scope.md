@@ -45,6 +45,7 @@
 | ID | Constraint / Rule | Source | Impact |
 |---|---|---|---|
 | BR-01 | [กรอก] | Case Card / evidence | [กรอก] |
+| BR-02 | [กรอก] | Case Card / evidence | [กรอก] |
 
 ## 5. Ethics, Privacy and Accessibility Considerations
 
