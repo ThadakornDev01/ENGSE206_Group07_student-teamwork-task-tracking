@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="stakeholder_map" name="Stakeholder Map">
+        <mxGraphModel dx="1103" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="y-axis" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="850" as="sourcePoint"/>
+                        <mxPoint x="480" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y-label" value="อำนาจ (Power)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="150" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="x-axis" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="500" as="sourcePoint"/>
+                        <mxPoint x="830" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="x-label" value="ความสนใจ (Interest)" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="510" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="teacher" value="&lt;b&gt;อาจารย์ผู้สอน&lt;/b&gt;&lt;br&gt;&lt;br&gt;มีอำนาจประเมินผล/ให้คะแนน&lt;br&gt;และสนใจว่าจะตรวจสอบหลักฐาน&lt;br&gt;การทำงานได้อย่างไร" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#F8BBD0;strokeColor=#F06292;fontColor=#000000;size=15;align=center;verticalAlign=middle;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="200" width="170" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="leader" value="&lt;b&gt;หัวหน้ากลุ่ม&lt;/b&gt;&lt;br&gt;&lt;br&gt;มีอำนาจแบ่งงาน/ตามงาน&lt;br&gt;และสนใจความคืบหน้าของ&lt;br&gt;โปรเจกต์มากที่สุด" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFCC80;strokeColor=#FF9800;fontColor=#000000;size=15;align=center;verticalAlign=middle;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="300" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="member" value="&lt;b&gt;สมาชิกกลุ่ม&lt;/b&gt;&lt;br&gt;&lt;br&gt;ต้องใช้ระบบเพื่อดูงานและ&lt;br&gt;ส่งงาน (สนใจมาก)&lt;br&gt;แต่ไม่ได้มีอำนาจสั่งการหรือ&lt;br&gt;เปลี่ยนโครงสร้างโปรเจกต์" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFF59D;strokeColor=#FBC02D;fontColor=#000000;size=15;align=center;verticalAlign=middle;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="570" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="reviewer" value="&lt;b&gt;เพื่อน Reviewer&lt;/b&gt;&lt;br&gt;&lt;br&gt;ต้องการดูหลักฐานเพื่อทำ&lt;br&gt;Peer evaluation&lt;br&gt;(สนใจมาก)&lt;br&gt;แต่ไม่มีอำนาจจัดการระบบ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#90CAF9;strokeColor=#42A5F5;fontColor=#000000;size=15;align=center;verticalAlign=middle;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="650" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="na" value="&lt;b&gt;N/A&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#F5F5F5;strokeColor=#E0E0E0;fontColor=#000000;size=15;align=center;verticalAlign=middle;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="270" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="outsider" value="&lt;b&gt;นักศึกษาที่ไม่ได้เรียนวิชานี้&lt;/b&gt;&lt;br&gt;&lt;br&gt;แทบไม่มีผลกระทบและไม่มีอำนาจ&lt;br&gt;แต่อาจจะพิมพ์แปะไว้ให้ทีมเห็น&lt;br&gt;ว่าเราตีกรอบ Scope&lt;br&gt;ไว้ชัดเจนแล้วว่าไม่รวมคนกลุ่มนี้" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#C5E1A5;strokeColor=#8BC34A;fontColor=#000000;size=15;align=center;verticalAlign=middle;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="550" width="230" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;strong&gt;อำนาจสูง + ความสนใจสูง&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="150" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;strong&gt;อำนาจสูง + ความสนใจต่ำ&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="150" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;strong&gt;อำนาจต่ำ + ความสนใจสูง&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="800" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;strong&gt;อำนาจต่ำ + ความสนใจต่ำ&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="800" width="100" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="engse206_case07" name="System Context">
+        <mxGraphModel dx="1188" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="Student Teamwork Task Tracking — System Context Diagram" style="text;html=1;strokeColor=none;fillColor=none;fontSize=26;fontStyle=1;fontColor=#123B6D;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="30" width="1000" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="system" value="Task Tracking System&#xa;แบ่งงาน • ติดตาม • แนบหลักฐาน • ประเมินผล" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F8F4;strokeColor=#168A87;strokeWidth=3;fontColor=#168A87;fontStyle=1;fontSize=22;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="390" width="540" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="leader" value="หัวหน้ากลุ่ม" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#1D6FC3;strokeWidth=2;fontColor=#123B6D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="230" width="310" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="member" value="สมาชิกกลุ่ม" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#1D6FC3;strokeWidth=2;fontColor=#123B6D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="720" width="310" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="teacher" value="อาจารย์ผู้สอน" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E8;strokeColor=#E58327;strokeWidth=2;fontColor=#123B6D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="1370" y="220" width="310" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="reviewer" value="เพื่อน Reviewer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E8;strokeColor=#E58327;strokeWidth=2;fontColor=#123B6D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="1370" y="660" width="310" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" value="กำหนดงาน / ผู้รับผิดชอบ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=12;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" parent="1" source="leader" target="system" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" value="แจ้งเตือนความคืบหน้า" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=12;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" parent="1" source="system" target="leader" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="840" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e3" value="อัปเดตงาน / แนบหลักฐาน" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=12;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" parent="1" source="member" target="system" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" value="รายการงานที่ต้องทำ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=12;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" parent="1" source="system" target="member" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="840" y="680"/>
+                            <mxPoint x="245" y="680"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e5" value="ขอเรียกดูภาพรวม" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=12;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" parent="1" source="teacher" target="system" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="910" y="275"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e6" value="Dashboard / ข้อมูลหลักฐาน" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=12;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" parent="1" source="system" target="teacher" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="950" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e7" value="ขอเรียกดูหลักฐานการทำงาน" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=12;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" parent="1" source="reviewer" target="system" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="950" y="740"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e8" value="บันทึกการทำงาน (Worklog)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=12;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" parent="1" source="system" target="reviewer" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="980" y="700"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
