@@ -45,7 +45,7 @@
 | ID | Constraint / Rule | Source | Impact |
 |---|---|---|---|
 | BR-01 | ในการติดตามระบบ บทบาทสามารถเปลี่ยนได้ตามความเหมาะสม |  | [กรอก] |
-| BR-02 | ระบบไม่ได้เชื่อมต่อกับการให้คะแนนของอาจารย์ | Case Card / evidence | [กรอก] |
+| BR-02 | ระบบไม่ได้เชื่อมต่อกับการให้คะแนนของอาจารย์เป็นเพียงแค่การติดตามผล | Case Card / evidence | [กรอก] |
 
 ## 5. Ethics, Privacy and Accessibility Considerations
 
