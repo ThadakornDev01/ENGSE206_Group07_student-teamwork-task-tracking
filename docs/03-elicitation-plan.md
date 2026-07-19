@@ -1,6 +1,6 @@
 # 03 — Elicitation Plan
 
-> Week 03 | Team: [Team XX] | Case: [ID — Title]
+> Week 03 | Team: Group 07 | Case: 07 — ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก[cite: 8]
 
 ## 1. Inputs from Week 02
 
@@ -9,38 +9,46 @@
 
 | OQ ID | Open Question | Impact if unresolved | Candidate source |
 |---|---|---|---|
-| OQ-01 | | | |
+| OQ-01 | อาจารย์ต้องการเห็นภาพรวม (Dashboard) ในรูปแบบใดและลึกระดับไหน? | ระบบอาจสร้างรายงานที่อาจารย์ไม่สามารถนำไปใช้ประกอบการประเมินผลได้จริง | อาจารย์ผู้สอน |
+| OQ-02 | อะไรคือหลักฐานการทำงานที่ทีมและอาจารย์ยอมรับว่าน่าเชื่อถือที่สุด? | ขาดข้อกำหนดที่ชัดเจนในการปิดงาน (Done) และอาจเกิดความขัดแย้งตอนทำ Peer evaluation | อาจารย์ผู้สอน / หัวหน้ากลุ่ม |
+| OQ-03 | เมื่อมีการเปลี่ยนคนทำงานกลางคัน ต้องเก็บประวัติของคนเดิมไว้หรือไม่? | ข้อมูลการทำงานของคนเก่าสูญหาย ส่งผลให้การประเมินการมีส่วนร่วมไม่เป็นธรรม | หัวหน้ากลุ่ม / สมาชิกกลุ่ม |
 
 ## 2. Elicitation Objectives
 
 | EO ID | Objective: what must be learned | Related OQ | Decision/use | Expected evidence / exit criterion |
 |---|---|---|---|---|
-| EO-01 | | | | |
+| EO-01 | ทราบรูปแบบและระดับความลึกของข้อมูลที่อาจารย์ต้องการใช้ประเมินผล | OQ-01 | ออกแบบโครงสร้าง Dashboard ภาพรวม | รายการข้อมูลหรือตัวอย่างฟิลด์ข้อมูลที่อาจารย์ระบุว่าเพียงพอต่อการประเมินคะแนน |
+| EO-02 | กำหนดประเภทของหลักฐานการทำงานที่บังคับใช้ในระบบ | OQ-02 | กำหนด Constraint และ Validate ของฟีเจอร์การส่งงาน | รายชื่อรูปแบบหลักฐาน (เช่น ลิงก์, ไฟล์สกุลต่างๆ) ที่ผ่านความเห็นชอบ |
+| EO-03 | เข้าใจกระบวนการจัดการข้อมูลเมื่อเปลี่ยนผู้รับผิดชอบงานกลางคัน | OQ-03 | ออกแบบระบบประวัติ (History Log) ของงานแต่ละชิ้น | กฎเกณฑ์ที่ชัดเจนว่าจะแสดงประวัติเก่าหรือไม่ และแสดงอย่างไร |
 
 ## 3. Plan
 
 | EO | Stakeholder/source | Technique + rationale | Evidence to record | Owner/time | Risk/mitigation | Exit criterion |
 |---|---|---|---|---|---|---|
-| EO-01 | | Interview / observation / document / workshop | | | | |
+| EO-01 | อาจารย์ผู้สอน | Interview: เพื่อเจาะลึกมุมมองของผู้ประเมินโดยตรง | บันทึกเสียงสัมภาษณ์ (ถ้าได้รับอนุญาต) หรือ Note สรุปประเด็น | คมสันต์ (15 นาที) | อาจารย์มีเวลาจำกัด / แจ้งกรอบเวลาชัดเจนและเตรียมคำถามให้กระชับ | ได้ความต้องการข้อมูล (Data point) สำหรับทำ Dashboard |
+| EO-02 | หัวหน้ากลุ่ม | Interview + Observation: ถามและดูตัวอย่างแชตงานเก่าที่เคยส่งกันจริง | Note สรุปรูปแบบหลักฐาน | ธดากรณ์ (15 นาที) | ความเห็นของหัวหน้าแต่ละวิชาไม่ตรงกัน / หาสิ่งที่ยอมรับร่วมกันได้ (Common ground) | ได้รายชื่อประเภทหลักฐานที่เป็นมาตรฐาน |
+| EO-03 | สมาชิกกลุ่ม | Interview (Scenario-based): จำลองสถานการณ์ว่าถูกเปลี่ยนงานกลางคัน | Note สรุปความต้องการ | ญาณากร (10 นาที) | ผู้ตอบคิดภาพไม่ออก / ใช้ Scenario จำลองสถานการณ์ให้ฟัง | ทราบว่าจะต้องเก็บประวัติงานเดิมหรือไม่ |
 
 ## 4. Privacy and Responsible AI
 
-- Data that must not be collected:
-- Consent/opening statement:
-- How roles will be anonymized:
-- AI use permitted:
-- Human verification plan:
+- **Data that must not be collected:** ข้อมูลส่วนบุคคลจริง, รหัสนักศึกษา, ข้อมูลเกรดหรือคะแนนจริงของวิชาอื่นๆ
+- **Consent/opening statement:** "การสัมภาษณ์นี้เป็นส่วนหนึ่งของโครงงานวิชา ENGSE206 เพื่อออกแบบระบบติดตามงาน ข้อมูลจะถูกใช้ในโครงงานเท่านั้น และไม่มีการเก็บข้อมูลส่วนตัว หากมีคำถามใดไม่สะดวกตอบสามารถข้ามได้ครับ"
+- **How roles will be anonymized:** บันทึกในรูปแบบบทบาทแทนชื่อจริง เช่น "อาจารย์ A", "หัวหน้ากลุ่ม B"
+- **AI use permitted:** ใช้ AI ช่วยตรวจสอบ Bias ของคำถามสัมภาษณ์ และจำลอง Role-play เพื่อซ้อมสัมภาษณ์
+- **Human verification plan:** สมาชิกในทีมทั้งหมดร่วมกันอ่านทบทวนคำถามสัมภาษณ์ เพื่อให้แน่ใจว่าไม่มีคำถามชี้แนะ (Leading question) หรืออยู่นอกเหนือ Scope
 
 ## 5. Team Roles
 
 | Member | Workshop role | Responsibility/evidence |
 |---|---|---|
-| | | |
+| นายธดากรณ์ เชื้อโต่ง | Interviewer | ดำเนินการสัมภาษณ์และสอบถามข้อมูลหลัก |
+| นายคมสันต์ ขันคำกาศ | Note-taker | จดบันทึก สรุปประเด็น และตรวจสอบความถูกต้องของข้อมูล |
+| นายญาณากร หวังระบอบ | Observer / QA | สังเกตปฏิกิริยา ตรวจสอบว่าคำถามครบถ้วนและไม่หลุดขอบเขต |
 
 ## 6. Definition of Done
 
-- [ ] 3–5 high-impact OQs
-- [ ] EO–OQ–evidence–decision linkage
-- [ ] appropriate technique and stakeholder rationale
-- [ ] owner/time/risk/exit criteria
-- [ ] privacy/AI plan and team roles
+- [✓] 3–5 high-impact OQs
+- [✓] EO–OQ–evidence–decision linkage
+- [✓] appropriate technique and stakeholder rationale
+- [✓] owner/time/risk/exit criteria
+- [✓] privacy/AI plan and team roles
