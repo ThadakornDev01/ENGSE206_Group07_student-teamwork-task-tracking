@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <title>ENGSE206 | Workshop Week 02 - Group 07</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Reveal.js CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/simple.min.css" id="theme">
+  
+  <!-- Google Fonts for Thai Language -->
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Custom Styles */
+    .reveal {
+      font-family: 'Prompt', sans-serif;
+      background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    }
+    .reveal h1, .reveal h2, .reveal h3 {
+      font-family: 'Prompt', sans-serif;
+      text-transform: none;
+      font-weight: 700;
+      color: #1e293b;
+    }
+    .reveal h1 { font-size: 2.5em; color: #1d4ed8; }
+    .reveal h2 { font-size: 1.8em; border-bottom: 4px solid #3b82f6; padding-bottom: 10px; margin-bottom: 30px; display: inline-block; }
+    .reveal h3 { font-size: 1.2em; color: #475569; margin-top: 10px;}
+    .reveal p, .reveal li {
+      font-size: 0.9em;
+      color: #334155;
+      line-height: 1.6;
+    }
+    .reveal ul {
+      display: block;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .reveal li { margin-bottom: 15px; }
+    
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      border: 1px solid #e2e8f0;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .in-scope { background: #ecfdf5; border: 1px solid #a7f3d0; padding: 20px; border-radius: 10px; }
+    .in-scope h3 { color: #047857; margin-top: 0; }
+    
+    .out-scope { background: #fff1f2; border: 1px solid #fecdd3; padding: 20px; border-radius: 10px; }
+    .out-scope h3 { color: #be123c; margin-top: 0; }
+
+    .highlight {
+      color: #1d4ed8;
+      font-weight: 600;
+    }
+    
+    .placeholder-box {
+      border: 2px dashed #cbd5e1;
+      padding: 50px;
+      background: #f8fafc;
+      color: #64748b;
+      border-radius: 15px;
+      margin: 20px 0;
+      font-size: 0.8em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Slide 1: Title -->
+      <section>
+        <div class="box">
+          <div style="background: rgba(59, 130, 246, 0.1); display: inline-block; padding: 5px 20px; border-radius: 20px; margin-bottom: 20px; color: #1d4ed8; font-weight: bold; font-size: 0.7em;">
+            Workshop Week 02
+          </div>
+          <h1>ENGSE206</h1>
+          <h3>Stakeholder, Context and Scope</h3>
+          <div style="width: 100px; height: 4px; background: #3b82f6; margin: 30px auto;"></div>
+          <p>ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก (Case 07)<br><br><strong>ทีมจัดทำ: Group 07</strong></p>
+        </div>
+      </section>
+
+      <!-- Slide 2 -->
+      <section>
+        <h2>1. สถานการณ์และปัญหา (Problem Frame)</h2>
+        <div class="box text-left">
+          <ul>
+            <li><span class="highlight">ข้อมูลกระจัดกระจาย:</span> การสั่งงานและส่งไฟล์ผ่านแชตทำให้งานตกหล่น</li>
+            <li><span class="highlight">ความไม่ชัดเจน:</span> สมาชิกไม่ทราบหน้าที่และกำหนดส่งที่แน่ชัด</li>
+            <li><span class="highlight">ตามงานยาก:</span> หัวหน้ากลุ่มติดตามความคืบหน้าลำบาก</li>
+            <li><span class="highlight">ประเมินผลไม่เป็นธรรม:</span> ขาดหลักฐานตรวจสอบการมีส่วนร่วมในช่วงท้าย</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 3 -->
+      <section>
+        <h2>2. ผลลัพธ์ที่ต้องการ (Expected Outcomes)</h2>
+        <div class="box">
+          <ul>
+            <li>สมาชิกทีมมองเห็นภาระงานและกำหนดส่งอย่างชัดเจน</li>
+            <li>หัวหน้ากลุ่มติดตามการทำงานของสมาชิกได้อย่างเป็นระบบ</li>
+            <li>มีหลักฐานการมีส่วนร่วมของสมาชิกเพื่อการประเมิน Peer Evaluation</li>
+            <li>อาจารย์ผู้สอนมองเห็นภาพรวมการทำงานเพื่อใช้ประเมินผลได้พอดี</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 4 -->
+      <section>
+        <h2>3. ผู้มีส่วนเกี่ยวข้อง (Stakeholders)</h2>
+        <div class="box">
+          <ul>
+            <li><span class="highlight">หัวหน้ากลุ่ม (Primary):</span> ผู้แบ่งงานและตามความคืบหน้า</li>
+            <li><span class="highlight">สมาชิกกลุ่ม (Primary):</span> ผู้ทำหน้าที่และส่งหลักฐานการทำงาน</li>
+            <li><span class="highlight">อาจารย์ผู้สอน (Secondary):</span> ผู้ประเมินผลจากภาพรวม</li>
+            <li><span class="highlight">เพื่อน Reviewer (Secondary):</span> ผู้ประเมินเพื่อนจาก Worklog</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 5 -->
+      <section>
+        <h2>4. แผนผัง Stakeholder Map</h2>
+        <div class="box">
+          <div class="placeholder-box">
+            [ ทีมเว้นพื้นที่ตรงนี้ไว้สำหรับวางรูปภาพ Stakeholder Map จาก draw.io ]
+          </div>
+          <ul style="font-size: 0.8em;">
+            <li><strong>Manage Closely (อำนาจสูง/สนใจสูง):</strong> อาจารย์ผู้สอน, หัวหน้ากลุ่ม</li>
+            <li><strong>Keep Informed (อำนาจต่ำ/สนใจสูง):</strong> สมาชิกกลุ่ม, เพื่อน Reviewer</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 6 -->
+      <section>
+        <h2>5. บริบทของระบบ (System Context)</h2>
+        <div class="box">
+          <div class="placeholder-box">
+            [ ทีมเว้นพื้นที่ตรงนี้ไว้สำหรับวางรูปภาพ System Context จาก draw.io ]
+          </div>
+          <p style="font-size: 0.8em; text-align: center;">
+            <strong>การไหลของข้อมูล (Data Flow)</strong> เน้นไปที่การส่งคำสั่งงาน, การอัปเดตความคืบหน้า, การแนบหลักฐาน, และการเรียกดู Dashboard เพื่อประเมินผล
+          </p>
+        </div>
+      </section>
+
+      <!-- Slide 7 -->
+      <section>
+        <h2>6. ขอบเขตของระบบ (Scope Statement)</h2>
+        <div class="grid-2">
+          <div class="in-scope">
+            <h3>✅ In Scope (สิ่งที่ระบบทำ)</h3>
+            <ul style="margin-left: 20px;">
+              <li>จัดการงานกลุ่ม 1 รายวิชา / 1 โครงการ</li>
+              <li>แสดงความคืบหน้าและแนบหลักฐานการทำงาน</li>
+              <li>มีระบบข้อตกลงและประเมิน Peer Evaluation</li>
+            </ul>
+          </div>
+          <div class="out-scope">
+            <h3>❌ Out of Scope (สิ่งที่ระบบไม่ทำ)</h3>
+            <ul style="margin-left: 20px;">
+              <li>ไม่รวมระบบ Chat หรือ Video call</li>
+              <li>ไม่เชื่อมต่อกับระบบคะแนนมหาวิทยาลัย</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 8 -->
+      <section>
+        <h2>7. ข้อจำกัดและข้อสมมติ (Constraints)</h2>
+        <div class="box">
+          <ul>
+            <li><strong>C-01:</strong> บทบาทการทำงานสามารถสลับเปลี่ยนได้ตามความเหมาะสม</li>
+            <li><strong>C-02:</strong> ระบบเป็นเพียงเครื่องมือติดตาม ไม่เชื่อมกับการตัดเกรดโดยตรง</li>
+            <li><strong>C-03:</strong> การจบงาน (Done) ต้องแนบหลักฐาน (ไฟล์/ลิงก์/ข้อความ) เสมอ</li>
+            <li><strong>A-01:</strong> ผู้ใช้ทุกคนมีอุปกรณ์ที่เชื่อมต่ออินเทอร์เน็ตได้</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 9 -->
+      <section>
+        <h2>8. การปรับปรุงจาก Feedback</h2>
+        <div class="box">
+          <ul>
+            <li><strong>Feedback 1:</strong> ควรระบุเงื่อนไขการจบงานให้ชัดเจน<br>
+              <span style="color: #047857;">➔ <strong>Action:</strong> เพิ่ม Constraint บังคับให้ต้องแนบหลักฐานเสมอเมื่อจะปิดงาน</span>
+            </li>
+            <li style="margin-top: 20px;"><strong>Feedback 2:</strong> ระบบจำเป็นต้องมีช่องแชตไหม?<br>
+              <span style="color: #047857;">➔ <strong>Action:</strong> ยืนยันย้ายระบบ Chat ไป Out of Scope เพื่อโฟกัสที่การ Track งาน ลดความซ้ำซ้อนกับแอปที่ใช้อยู่แล้ว</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 10 -->
+      <section>
+        <h2>9. คำถามเปิดเพื่อค้นหาความต้องการ</h2>
+        <div class="box">
+          <p style="color: #64748b; margin-bottom: 20px;">(สำหรับพูดคุยใน Week 3)</p>
+          <ul>
+            <li>อาจารย์ต้องการเห็นภาพรวม (Dashboard) ในรูปแบบใดและลึกระดับไหน?</li>
+            <li>อะไรคือหลักฐานการทำงานที่ทีมและอาจารย์ยอมรับว่าน่าเชื่อถือที่สุด?</li>
+            <li>หากเปลี่ยนคนทำงานกลางคัน ต้องเก็บประวัติของคนเดิมไว้หรือไม่?</li>
+            <li>ผู้ใช้สะดวกที่จะรายงานปัญหาหรืออุปสรรคในการทำงานผ่านช่องทางใด?</li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Reveal.js Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t', // Show current/total slide number
+      transition: 'fade', // none/fade/slide/convex/concave/zoom
+      center: true,
+      controls: true,
+      progress: true
+    });
+  </script>
+</body>
+</html>
