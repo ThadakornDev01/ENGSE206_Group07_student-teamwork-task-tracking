@@ -1,65 +1,3 @@
-นายยก อบต.
-lecturer_red_85537
-Code
-+2
-﻿
-นายยก อบต. [S1],  — 16/7/2569 21:01
-ประเภทไฟล์ที่แนบ: acrobat
-แบบคำร้องทั่วไป Update 1 กค 68.pdf
-111.57 KB
-นายยก อบต. [S1],  — 21/7/2569 8:28
-https://teams.microsoft.com/meet/441021502457368?p=IO6XDn3sZpPAJL4MTB
-Microsoft Teams
-Join meeting on Teams
-ภาพ
-ภาพ
-นายยก อบต. [S1],  — 27/7/2569 11:39
-
-นายยก อบต. [S1],  — 31/7/2569 1:58
-https://www.canva.com/design/DAHBlmKX5Bg/KQdz8S8QF3aSyEjUDVVO5A/view
-Canva
-เทคโนโลยีและผลกระทบต่อ...
-นายยก อบต. [S1],  — 31/7/2569 6:07
-
-นายยก อบต. [S1],  — 31/7/2569 9:33
-ครับผม 10.00 น. ครับ
-https://teams.microsoft.com/meet/477687015679564?p=zUeUToF8mOK6FAJcyV
-Microsoft Teams
-Join meeting on Teams
-ภาพ
-ภาพ
-นายยก อบต. [S1],  — เมื่อวานนี้ เวลา 9:58
-https://teams.microsoft.com/meet/429751517244276?p=HRneyAdgkv8qZx0EVk
-Microsoft Teams
-Join meeting on Teams
-ภาพ
-ภาพ
-นายยก อบต. [S1],  — เมื่อวานนี้ เวลา 10:34
-ประเภทไฟล์ที่แนบ: document
-ใบงานที่ 3- การสร้างฐานข้อมูล ตาราง การจัดการข้อมูล และการดึงข้อมูล (1) (1).docx
-7.14 MB
-ประเภทไฟล์ที่แนบ: acrobat
-ใบงานที่ 3- การสร้างฐานข้อมูล ตาราง การจัดการข้อมูล และการดึงข้อมูล (1) (1).pdf
-3.14 MB
-นายยก อบต. [S1],  — เมื่อวานนี้ เวลา 14:45
-https://canva.link/tqrc422nk6qqk6p
-นายยก อบต. [S1],  — 9:06
-https://teams.microsoft.com/meet/429248167569323?p=zu54tgEUdOPjm7mgEt
-Microsoft Teams
-Join meeting on Teams
-ภาพ
-ภาพ
-นายยก อบต. [S1],  — 15:53
-# 05 — Requirement Backlog and Prioritization
-
-> **Week 5 deliverable** > Requirement ต้องระบุได้ ตรวจสอบได้ และเชื่อมโยงกับ stakeholder/value ที่ชัดเจน
-> เวอร์ชัน: v0.1 | สถานะ: Baseline Draft (Merged & Reviewed)
-
-## 1. Prioritization Method
-
-gemini-code-1786437772709.md
-17 KB
-﻿
 # 05 — Requirement Backlog and Prioritization
 
 > **Week 5 deliverable** > Requirement ต้องระบุได้ ตรวจสอบได้ และเชื่อมโยงกับ stakeholder/value ที่ชัดเจน
@@ -130,5 +68,3 @@ gemini-code-1786437772709.md
 | A-03 | ทีมสามารถตกลงเกณฑ์การทำ Peer evaluation ร่วมกันได้ตั้งแต่ช่วงเริ่มต้นโครงการ | FR-08/FR-09 ใช้งานไม่ได้จริง เพราะไม่มีเกณฑ์ให้ประเมิน | ธดากรณ์ เชื้อโต่ง |
 | D-01 | ต้องได้รับคำตอบจากอาจารย์ (OQ-01) ว่าระดับความละเอียดของภาพรวมที่ต้องเห็นควรเป็นอย่างไร | FR-06/FR-07 อาจต้องปรับ scope ของข้อมูลที่แสดงให้อาจารย์เห็นภายหลัง | คมสันต์ ขันคำกาศ |
 | D-02 | การทำ Peer Evaluation จะล็อกให้ประเมินได้เฉพาะงานที่สถานะเป็น "Done" แล้วจริงหรือไม่? | หากไม่ใช่ ระบบต้องปรับ Logic ให้ประเมินได้ตามกรอบเวลาแทน | คมสันต์ ขันคำกาศ |
-gemini-code-1786437772709.md
-17 KB
