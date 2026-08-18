@@ -70,3 +70,12 @@
 
 - **[OQ-01] การแปลงไปสู่ Use Case Model:** เตรียมนำ FR-01 ถึง FR-08 ไปแตกเป็น Use Case Descriptions และระบุ Actor (สมาชิกกลุ่ม, หัวหน้ากลุ่ม, อาจารย์ผู้สอน) ใน Week 06
 - **[OQ-02] Definition of Done:** ยืนยันว่าการอัปโหลดไฟล์หลักฐาน (FR-04) รองรับได้ทั้งแบบไฟล์ตรง, ลิงก์ Drive/GitHub และข้อความอธิบาย
+
+## 7. Final Submission Snapshot
+
+| Field                     | Value                                         |
+| ------------------------- | --------------------------------------------- |
+| Commit message            | `submit(w05): lock requirement baseline v1.0` |
+| Commit hash (ตอน tag)     | `[74cb927]`                      |
+| Tag pushed?               | [X]                                           |
+| ตรวจลิงก์เปิดได้              | [X]                                           |
