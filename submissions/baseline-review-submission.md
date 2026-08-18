@@ -60,8 +60,8 @@
 
 | ชื่อ-นามสกุล | บทบาทในกิจกรรม | ภาระงานจริงที่รับผิดชอบ | สัดส่วน/หลักฐาน |
 |---|---|---|:---:|
-| **นายธดากรณ์ เชื้อโต่ง** | Lead Facilitator, Auditor & Gatekeeper | ดำเนินการตรวจสอบ Health check, จัดทำตาราง Traceability Matrix, ปรับปรุง Backlog, จัดทำไฟล์ docs/08, ควบคุมเกณฑ์ Readiness Gate และเป็นผู้ Commit / Push Tag | **รับผิดชอบหลัก (80%)** <br>`[Commit / docs/08, docs/05, submissions]` |
-| **นายคมสันต์ ขันคำกาศ** | Co-Auditor / Reviewer | ร่วมอ่านตรวจทานความถูกต้องของ Traceability ใน FR-01, FR-04 และตรวจฟอร์ม Peer Cross-Review | **ช่วยตรวจทาน (15%)** <br>`[Commit / Cross-Review]` |
+| **นายธดากรณ์ เชื้อโต่ง** | Lead Facilitator, Auditor & Gatekeeper | ดำเนินการตรวจสอบ Health check, จัดทำตาราง Traceability Matrix, ปรับปรุง Backlog, จัดทำไฟล์ docs/08, ควบคุมเกณฑ์ Readiness Gate และเป็นผู้ Commit / Push Tag | **รับผิดชอบหลัก (70%)** <br>`[Commit / docs/08, docs/05, submissions]` |
+| **นายคมสันต์ ขันคำกาศ** | Co-Auditor / Reviewer | ร่วมอ่านตรวจทานความถูกต้องของ Traceability ใน FR-01, FR-04 และตรวจฟอร์ม Peer Cross-Review | **ช่วยตรวจทาน (25%)** <br>`[Commit / Cross-Review]` |
 | **นายญาณากร หวังระบอบ** | Brief Reviewer | ร่วมอ่านทบทวน Problem Brief ในช่วงเริ่มต้นกิจกรรม (ติดภารกิจระหว่างกิจกรรมหลัก) | **มีส่วนร่วมน้อย (5%)** <br>`[Commit / docs/01]` |
 
 ---
