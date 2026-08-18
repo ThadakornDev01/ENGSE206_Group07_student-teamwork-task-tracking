@@ -8,7 +8,7 @@
 
 ## Student Information
 - **Name:** นายธดากรณ์ เชื้อโต่ง
-- **Student ID:** [ใส่รหัสนักศึกษาของคุณ]
+- **Student ID:** 68543210052-5
 - **Group:** Group 07
 - **Case / Topic:** Case 07 — ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก (Student-teamwork-task-tracking)
 - **Week / Deliverable:** Week 06 Consolidation / 08 — Requirement Baseline Review & Readiness Gate
@@ -37,7 +37,7 @@
 
 ## Student Information
 - **Name:** นายคมสันต์ ขันคำกาศ
-- **Student ID:** [ใส่รหัสนักศึกษา]
+- **Student ID:** 68543210002-0
 - **Group:** Group 07
 - **Case / Topic:** Case 07 — ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก (Student-teamwork-task-tracking)
 - **Week / Deliverable:** Week 06 Consolidation / 08 — Requirement Baseline Review & Readiness Gate
@@ -62,7 +62,7 @@
 
 ## Student Information
 - **Name:** นายญาณากร หวังระบอบ
-- **Student ID:** [ใส่รหัสนักศึกษา]
+- **Student ID:** 68543210023-6
 - **Group:** Group 07
 - **Case / Topic:** Case 07 — ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก (Student-teamwork-task-tracking)
 - **Week / Deliverable:** Week 06 Consolidation / 08 — Requirement Baseline Review & Readiness Gate
