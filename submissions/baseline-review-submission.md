@@ -79,3 +79,4 @@
 | Commit hash (ตอน tag)     | `[74cb927]`                      |
 | Tag pushed?               | [X]                                           |
 | ตรวจลิงก์เปิดได้              | [X]                                           |
+|ลิงก์วางใน GoogleSheet(คอลัมน์ RBR) |[X]                                      |
