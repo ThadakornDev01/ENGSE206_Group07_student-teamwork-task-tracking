@@ -29,16 +29,20 @@
 
 ---
 
-## 3. ผลการตรวจสอบ Traceability Audit (กลุ่ม 07)
+## 3. ผลการตรวจสอบ Traceability Matrix (กลุ่ม 07)
 
-| Req ID | มาจาก Evidence / Issue | ผูกกับ Stakeholder | Need / Candidate (RC) | ลากครบ? |
-|---|---|---|---|:---:|
-| **FR-01** | E-01 | สมาชิกกลุ่ม, หัวหน้ากลุ่ม | RC-01 (ต้องการเห็นรายการงานและกำหนดส่งของตนเอง) | [x] ครบ |
-| **FR-04** | E-02 | หัวหน้ากลุ่ม | RC-04 (ต้องการให้แนบหลักฐานเมื่อทำงานเสร็จ) | [x] ครบ |
-| **NFR-01** | IS-01 | สมาชิกกลุ่ม | RC-08 (แสดงประวัติการทำงานด้วยภาษาที่เป็นกลาง) | [x] ครบ |
+| Req ID | Requirement Statement | Priority | Stakeholder | Evidence → Need |
+|:---:|---|:---:|---|:---:|
+| **FR-01** | ระบบต้องแสดงรายการงาน สถานะงาน และกำหนดส่งของสมาชิกในหน้าเดียว | **Must** | สมาชิกกลุ่ม, หัวหน้ากลุ่ม | $E\text{-}01 \rightarrow RC\text{-}01$ |
+| **FR-02** | หัวหน้ากลุ่มสามารถสร้างงานใหม่ กำหนดรายละเอียด ผู้รับผิดชอบ และวันส่งได้ | **Must** | หัวหน้ากลุ่ม | $E\text{-}01 \rightarrow RC\text{-}02$ |
+| **FR-04** | ระบบต้องบังคับให้แนบหลักฐาน (ไฟล์/ลิงก์/ข้อความ) เมื่อเปลี่ยนสถานะเป็น Done | **Must** | หัวหน้ากลุ่ม | $E\text{-}02 \rightarrow RC\text{-}04, RC\text{-}05$ |
+| **FR-08** | อาจารย์สามารถดู Dashboard สรุปภาพรวมและสัดส่วนงานของสมาชิกแต่ละคนได้ | **Must** | อาจารย์ผู้สอน | $E\text{-}04, E\text{-}05 \rightarrow RC\text{-}10$ |
+| **NFR-01** | UI ต้องแสดงประวัติการทำงานด้วยภาษาที่เป็นกลาง (Neutral Wording) | **Must** | สมาชิกกลุ่ม | $IS\text{-}01 \rightarrow RC\text{-}08$ |
+| **NFR-02** | ระบบไม่อนุญาตให้แก้ไขหรือลบประวัติ History Log ย้อนหลังโดยเด็ดขาด | **Must** | สมาชิกกลุ่ม, อาจารย์ | $E\text{-}03 \rightarrow RC\text{-}09$ |
+| **NFR-05** | อาจารย์เข้าถึงได้เฉพาะ Dashboard ภาพรวมและงาน Done ไม่เห็นสถานะระหว่างทำ | **Must** | อาจารย์, สมาชิกกลุ่ม | $IS\text{-}02 \rightarrow RC\text{-}12$ |
 
 **รายการช่องว่าง (Gap) / Open Questions ที่พบ:**
-* ไม่พบช่องโหว่ Requirement ระดับ Must ทุกข้อสามารถตรวจสอบย้อนกลับถึงหลักฐานและข้อตกลงได้ครบถ้วน
+* ไม่พบช่องโหว่ Requirement ระดับ Must ทุกข้อสามารถตรวจสอบย้อนกลับถึงหลักฐานและข้อตกลงได้ครบถ้วน 100%
 
 ---
 
@@ -61,10 +65,10 @@
 | สิ่งที่ตรวจ | สถานะ | ข้อเสนอแนะ / หมายเหตุ (อ้าง ID) |
 | :--- | :---: | :--- |
 | **ทุก Must มีสาย Traceable ครบ** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | Requirement ระดับ Must เชื่อมโยงถึง E-xx และ RC-xx ชัดเจน |
-| **FR/NFR วัด/ทดสอบได้** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | มีเงื่อนไขการตรวจรับชัดเจน ไม่ใช้คำกำกวม |
+| **FR/NFR วัด/ทดสอบได้** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | มีเงื่อนไข Acceptance Criteria ชัดเจน ไม่ใช้คำกำกวม |
 | **ไม่มี Requirement กำกวม/ซ้ำ** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | แต่ละข้อระบุหน้าที่เดียวชัดเจน (Atomic) |
-| **Scope ตรงกับ Case Card** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | มีการตัด Out of scope (Chat, Video call) ออกถูกต้อง |
-| **MoSCoW มีเหตุผลรองรับ** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | ลำดับความสำคัญสอดคล้องกับคุณค่าหลักของระบบ |
+| **Scope ตรงกับ Case Card** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | ตัด Out of scope (Chat, Video call, เชื่อมเกรดมหา'ลัย) ออกถูกต้อง |
+| **MoSCoW มีเหตุผลรองรับ** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | จัดลำดับความสำคัญสอดคล้องกับคุณค่าหลักของระบบ |
 
 ---
 
@@ -73,7 +77,7 @@
 ### ประเมินความพร้อม (Readiness Gate)
 | # | เกณฑ์ผ่านด่าน | หลักฐาน (Commit / Link) | สถานะ |
 |:---:|:---|:---|:---:|
-| 1 | เอกสาร `docs/01`–`05` ครบและอัปเดตล่าสุด | Main branch update | [x] ผ่าน |
+| 1 | เอกสาร `docs/01`–`05` ครบและอัปเดตล่าสุด | Main branch commit | [x] ผ่าน |
 | 2 | ทุก Requirement ที่เป็น Must ไล่ถึง Evidence + Stakeholder ได้ | ตารางในข้อ 3 ของไฟล์นี้ | [x] ผ่าน |
 | 3 | FR/NFR ทุกข้อวัด/ทดสอบได้ ไม่กำกวม | `docs/05-requirement-backlog.md` | [x] ผ่าน |
 | 4 | ผ่าน Peer Cross-Review อย่างน้อย 1 รอบ | ผลการประเมินในข้อ 5 | [x] ผ่าน |
@@ -84,7 +88,7 @@
 | :--- | :--- | :---: |
 | Backlog ที่แก้แล้ว | `docs/05-requirement-backlog.md` | [x] |
 | ตาราง Traceability + Gap | `docs/08-validation-traceability.md` | [x] |
-| ผล Health Check + ใบ Cross-Review | `evidence/week-05/baseline-review/` | [x] |
+| ผล Health Check + ใบ Cross-Review | `evidence/week-05/baseline-review/peer-review-group07.md` | [x] |
 | บันทึกการตัดสินใจ | `project-management/decision-log.md` | [x] |
 | Worklog บทบาทรายคน | `project-management/team-worklog.md` | [x] |
 | Reflection รายคน | `feedback/15-individual-reflection.md` | [x] |
