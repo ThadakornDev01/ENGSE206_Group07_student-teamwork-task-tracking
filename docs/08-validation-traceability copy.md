@@ -1,20 +1,22 @@
-# 08 — Requirement_Baseline_Review_Studio_TH
+# 08 — Validation, Traceability and Change Management
+> **Team:** ENGSE206 Group 07 | Case 07 — Student-teamwork-task-tracking
+> **Activity:** Requirement Baseline Review & Readiness Gate (Week 06)
 
-> **Week 6**
+---
 
-## 1. Validation Plan
+## 1. Artefact Health Check (ตรวจคลังชิ้นงาน)
 
-### 1. Artefact Health Check (ตรวจคลังชิ้นงาน)
+| เอกสาร | สิ่งที่ต้องมีอยู่ข้างใน | สถานะ |
+| :--- | :--- | :---: |
+| **docs/01 Problem Brief** | Goal เชิงผลลัพธ์, Pain points, Stakeholder เริ่มต้น, NFR เริ่มต้น | [x] ครบ |
+| **docs/02 Stakeholder/Scope** | Stakeholder map, Context diagram, In/Out scope, Constraints | [x] ครบ |
+| **docs/03 Elicitation/Interview** | Objectives, คำถาม 10–12 ข้อ, Bias check | [x] ครบ |
+| **docs/04 Evidence Log** | หลักฐานติด tag, Conflict + ผลเจรจา, Requirement candidates | [x] ครบ |
+| **docs/05 Backlog** | FR/NFR + Source + Priority + Acceptance measure | [x] ครบ |
 
-| เอกสาร | ต้องมีอะไรอยู่ข้างใน | สถานะ |
-| :--- | :--- | :--- |
-| **docs/01 Problem Brief** | goal เชิงผลลัพธ์, pain points, stakeholder เริ่มต้น, NFR เริ่มต้น | [ X ] ครบ &nbsp;&nbsp; [ ] ต้องแก้ |
-| **docs/02 Stakeholder/Scope** | stakeholder map, context diagram, in/out scope, constraints | [ X ] ครบ &nbsp;&nbsp; [ ] ต้องแก้ |
-| **docs/03 Elicitation/Interview** | objectives, คําถาม 10–12 ข้อ, bias check | [ X ] ครบ &nbsp;&nbsp; [ ] ต้องแก้ |
-| **docs/04 Evidence Log** | หลักฐานติด tag, conflict + ผลเจรจา, requirement candidates | [ X ] ครบ &nbsp;&nbsp; [ ] ต้องแก้ |
-| **docs/05 Backlog** | FR/NFR + source + priority + acceptance measure | [ ] ครบ &nbsp;&nbsp; [ X ] ต้องแก้ |
+---
 
-## 2. SE Career Talk
+## 2. กรณีศึกษาอ้างอิง (Case X Reference)
 
 | ขั้น | เนื้อหา (Case X) | อ้างอิง | ตรวจ |
 |---|---|---|:---:|
@@ -25,22 +27,22 @@
 | **FR/NFR** | **FR-05:** ระบบต้องแสดงห้อง/อุปกรณ์ว่างตามช่วงเวลา | `docs/05` | ✔ |
 | **Priority** | **Must** (กันจองชน = คุณค่าหลัก) | `docs/05` | ✔ |
 
-## 3. “Open Question / Assumption”
+---
 
-## ผลการตรวจสอบ Traceability Audit (Requirement Baseline Review)
+## 3. ผลการตรวจสอบ Traceability Audit (กลุ่ม 07)
 
-| Req ID | มาจาก Evidence / Issue | ผูกกับ Stakeholder | Need/Candidate (RC) | ลากครบ? |
+| Req ID | มาจาก Evidence / Issue | ผูกกับ Stakeholder | Need / Candidate (RC) | ลากครบ? |
 |---|---|---|---|:---:|
 | **FR-01** | E-01 | สมาชิกกลุ่ม, หัวหน้ากลุ่ม | RC-01 (ต้องการเห็นรายการงานและกำหนดส่งของตนเอง) | [x] ครบ |
 | **FR-04** | E-02 | หัวหน้ากลุ่ม | RC-04 (ต้องการให้แนบหลักฐานเมื่อทำงานเสร็จ) | [x] ครบ |
 | **NFR-01** | IS-01 | สมาชิกกลุ่ม | RC-08 (แสดงประวัติการทำงานด้วยภาษาที่เป็นกลาง) | [x] ครบ |
 
 **รายการช่องว่าง (Gap) / Open Questions ที่พบ:**
-* (ไม่พบช่องโหว่ Requirement ระดับ Must ทุกข้อสามารถตรวจสอบย้อนกลับถึงหลักฐานและข้อตกลงได้ครบถ้วน)
+* ไม่พบช่องโหว่ Requirement ระดับ Must ทุกข้อสามารถตรวจสอบย้อนกลับถึงหลักฐานและข้อตกลงได้ครบถ้วน
 
-## 4. Quality & MoSCoW Check
+---
 
-### ตรวจด้วยเกณฑ์คุณภาพ 4 ข้อ + ความสมเหตุสมผลของ MoSCoW + scope ไม่บวมเกิน Case Card
+## 4. Quality & MoSCoW Check (เกณฑ์คุณภาพ)
 
 | เกณฑ์การตรวจสอบ | คำถามสำหรับใช้ตรวจ (Checklist) |
 | :--- | :--- |
@@ -51,51 +53,39 @@
 | **MoSCoW สมเหตุสมผล** | ทำไมข้อนี้ถึง Must? ถ้าตัดออกแล้วระบบยัง “ใช้ได้จริง” ไหม? |
 | **Scope ไม่บวม** | เกินสิ่งที่ Case Card อนุญาตไหม? (เช่น เพิ่มระบบที่ out of scope ไปแล้ว) |
 
-## 5. Cross-Review Form
+---
 
-### ใบตรวจข้ามทีม (Cross-Review Form)
+## 5. ใบตรวจข้ามทีม (Cross-Review Form)
 **ประเมินผลงานของ:** กลุ่ม 07 (ระบบติดตามงานกลุ่มและการแบ่งบทบาทสมาชิก)
 
 | สิ่งที่ตรวจ | สถานะ | ข้อเสนอแนะ / หมายเหตุ (อ้าง ID) |
-| :--- | :--- | :--- |
-| **ทุก Must มีสาย Traceable ครบ** | [ ] ผ่าน &nbsp;&nbsp; [ ] ไม่ผ่าน | |
-| **FR/NFR วัด/ทดสอบได้** | [ ] ผ่าน &nbsp;&nbsp; [ ] ไม่ผ่าน | |
-| **ไม่มี Requirement กำกวม/ซ้ำ** | [ ] ผ่าน &nbsp;&nbsp; [ ] ไม่ผ่าน | |
-| **Scope ตรงกับ Case Card** | [ ] ผ่าน &nbsp;&nbsp; [ ] ไม่ผ่าน | |
-| **MoSCoW มีเหตุผลรองรับ** | [ ] ผ่าน &nbsp;&nbsp; [ ] ไม่ผ่าน | |
+| :--- | :---: | :--- |
+| **ทุก Must มีสาย Traceable ครบ** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | Requirement ระดับ Must เชื่อมโยงถึง E-xx และ RC-xx ชัดเจน |
+| **FR/NFR วัด/ทดสอบได้** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | มีเงื่อนไขการตรวจรับชัดเจน ไม่ใช้คำกำกวม |
+| **ไม่มี Requirement กำกวม/ซ้ำ** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | แต่ละข้อระบุหน้าที่เดียวชัดเจน (Atomic) |
+| **Scope ตรงกับ Case Card** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | มีการตัด Out of scope (Chat, Video call) ออกถูกต้อง |
+| **MoSCoW มีเหตุผลรองรับ** | [x] ผ่าน &nbsp; [ ] ไม่ผ่าน | ลำดับความสำคัญสอดคล้องกับคุณค่าหลักของระบบ |
 
-## 6. Readiness Gate และ Reflection
+---
 
-- [ ] [งานที่ต้องปรับก่อนเริ่ม design]### ประเมินการผ่านด่าน (Readiness Gate)
-*ประเมินกันเองด้วยหลักฐานว่า “ผ่านด่าน” ครบทั้ง 5 ข้อหรือยัง ทำเครื่องหมายและแนบลิงก์/commit ที่พิสูจน์ได้*
+## 6. การประเมินผ่านด่าน (Readiness Gate) & ชิ้นงานส่งมอบ
 
-| # | เกณฑ์ผ่านด่าน (Readiness Gate) | หลักฐาน (แนบลิงก์ / Commit) | สถานะ |
+### ประเมินความพร้อม (Readiness Gate)
+| # | เกณฑ์ผ่านด่าน | หลักฐาน (Commit / Link) | สถานะ |
 |:---:|:---|:---|:---:|
-| 1 | เอกสาร `docs/01`–`05` ครบและอัปเดตล่าสุด | [ระบุลิงก์/Commit] | [ ] ผ่าน |
-| 2 | ทุก requirement ที่เป็น Must ไล่ถึง Evidence + Stakeholder ได้ | [ระบุลิงก์/Commit] | [ ] ผ่าน |
-| 3 | FR/NFR ทุกข้อวัด/ทดสอบได้ ไม่กำกวม | [ระบุลิงก์/Commit] | [ ] ผ่าน |
-| 4 | ผ่าน Peer Cross-Review อย่างน้อย 1 รอบ และแก้ตามที่ตกลง | [ระบุลิงก์/Commit] | [ ] ผ่าน |
-| 5 | commit + tag `baseline-v1.0` และอัปเดต worklog/decision-log | [ระบุลิงก์/Commit] | [ ] ผ่าน |
-## ผลการตรวจสอบ Traceability Audit (Requirement Baseline Review)
+| 1 | เอกสาร `docs/01`–`05` ครบและอัปเดตล่าสุด | Main branch update | [x] ผ่าน |
+| 2 | ทุก Requirement ที่เป็น Must ไล่ถึง Evidence + Stakeholder ได้ | ตารางในข้อ 3 ของไฟล์นี้ | [x] ผ่าน |
+| 3 | FR/NFR ทุกข้อวัด/ทดสอบได้ ไม่กำกวม | `docs/05-requirement-backlog.md` | [x] ผ่าน |
+| 4 | ผ่าน Peer Cross-Review อย่างน้อย 1 รอบ | ผลการประเมินในข้อ 5 | [x] ผ่าน |
+| 5 | Commit + Tag `baseline-v1.0` และบันทึก Worklog | `git tag baseline-v1.0` | [x] ผ่าน |
 
-### สรุปชิ้นงานที่ต้องส่ง (Deliverables)
-
+### สรุปชิ้นงานที่ต้องส่งมอบ (Deliverables)
 | ชิ้นงาน | Path ใน Team Repo | สถานะ |
 | :--- | :--- | :---: |
-| Backlog ที่แก้แล้ว | `docs/05-requirement-backlog.md` | [ ] |
-| ตาราง Traceability + Gap | `docs/08-validation-traceability.md` | [ ] |
-| ผล Health Check + ใบ Cross-Review | `evidence/week-05/baseline-review/` | [ ] |
-| บันทึกการตัดสินใจ | `project-management/decision-log.md` | [ ] |
-| Worklog บทบาทรายคน | `project-management/team-worklog.md` | [ ] |
-| Reflection รายคน | `feedback/15-individual-reflection.md` | [ ] |
-| Baseline tag | `git tag baseline-v1.0` | [ ] |
-## ผลการตรวจสอบ Traceability Audit (Requirement Baseline Review)
-
-| Req ID | มาจาก Evidence (E-xx) | ผูกกับ Stakeholder | Need/Candidate (RC) | ลากครบ? |
-|---|---|---|---|---|
-| FR-01 | E-01 | สมาชิกกลุ่ม | UN-01 | [ / ] ครบ |
-| FR-03 | E-01 | หัวหน้ากลุ่ม | UN-03 | [ / ] ครบ |
-| NFR-01 | E- | ST- | RC- | [ ] ครบ |
-
-**รายการช่องว่าง (Gap) / Open Questions ที่พบ:**
-* (ถ้าไล่สายไม่ครบ ให้จดคำถามหรือข้อสันนิษฐานไว้ตรงนี้ เพื่อยกไปคุยกันต่อใน Week 6)
+| Backlog ที่แก้แล้ว | `docs/05-requirement-backlog.md` | [x] |
+| ตาราง Traceability + Gap | `docs/08-validation-traceability.md` | [x] |
+| ผล Health Check + ใบ Cross-Review | `evidence/week-05/baseline-review/` | [x] |
+| บันทึกการตัดสินใจ | `project-management/decision-log.md` | [x] |
+| Worklog บทบาทรายคน | `project-management/team-worklog.md` | [x] |
+| Reflection รายคน | `feedback/15-individual-reflection.md` | [x] |
+| Baseline tag | `git tag baseline-v1.0` | [x] |
