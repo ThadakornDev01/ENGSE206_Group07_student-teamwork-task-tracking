@@ -1,7 +1,7 @@
 # Use Case Diagrams
 
 ใส่ use case diagram และเชื่อมกับ UC-ID ใน docs/06
-![Alt text](diagrams/use-case/UseCaseDiagramforUser.png)
+![Alt text](https://github.com/ThadakornDev01/ENGSE206_Group07_student-teamwork-task-tracking/blob/main/diagrams/use-case/UseCaseDiagramforUser.png)
 ## Checklist
 
 - [ ] มี source file ที่แก้ไขได้
