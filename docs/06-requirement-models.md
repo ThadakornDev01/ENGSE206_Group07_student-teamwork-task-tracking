@@ -68,8 +68,7 @@ Then ระบบต้องแสดงสรุปจำนวนงานแ
 
 | ID | Use Case | Primary Actor | Goal | Related FR | Diagram |
 |---|---|---|---|---|---|
-| UC-01 | [กรอก] | [Role] | [Goal] | FR-01 | `../diagrams/use-case/...` |
-
+|UC-01|ดูรายการงานและกำหนดส่งของตนเอง|สมาชิกกลุ่ม|ตรวจสอบภาระงานและวันกำหนดส่งเพื่อวางแผนทำงาน|FR-01|in progess|
 ## 4. Use Case Specification
 
 ### UC-01 — [ชื่อ Use Case]
