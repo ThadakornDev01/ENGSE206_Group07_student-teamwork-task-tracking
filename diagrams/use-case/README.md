@@ -1,7 +1,7 @@
 # Use Case Diagrams
 
 ใส่ use case diagram และเชื่อมกับ UC-ID ใน docs/06
-diagrams/use-case/UseCaseDiagramforUser.png
+![Alt text](diagrams/use-case/UseCaseDiagramforUser.png)
 ## Checklist
 
 - [ ] มี source file ที่แก้ไขได้
