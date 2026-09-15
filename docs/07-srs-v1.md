@@ -1,7 +1,7 @@
 # 07 — Software Requirements Specification (SRS) v1
 
 > **Week 7 deliverable**  
-> เวอร์ชัน: v1.0 | สถานะ: Baseline Candidate | วันที่: [DD/MM/YYYY]
+> เวอร์ชัน: v1.0 | สถานะ: Baseline Candidate | วันที่: [15/09/2026]
 
 ## Document Control
 
