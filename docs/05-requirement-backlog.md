@@ -55,10 +55,11 @@
 
 | Priority | Count | Requirement IDs |
 |---|---:|---|
-| Must | 11 | FR-01, FR-02, FR-03, FR-04, FR-06, FR-07, FR-08, FR-11, NFR-01, NFR-02, NFR-05 |
-| Should | 5 | FR-05, FR-09, NFR-03, NFR-04, BR-04 |
+| Must | 10 | FR-01, FR-02, FR-03, FR-04, FR-06, FR-07, FR-08, FR-11, NFR-01, NFR-02 |
+| Should | 4 | FR-05, FR-09, NFR-03, NFR-04 |
 | Could | 2 | FR-10, FR-12 |
-| Won't (current release) | 3 | Chat/Video call ในระบบ, การเชื่อมต่อระบบคะแนนมหาวิทยาลัยโดยตรง, ระบบ HR/Timesheet เต็มรูปแบบ (ตามขอบเขตใน `docs/01-problem-brief-v0.1.md`) |
+| Needs Follow-up (Must candidate) | 1 | NFR-05 (รอทดสอบ Mobile กับผู้ใช้จริง) |
+| Won't (current release) | 3 | ฟีเจอร์ Chat ในระบบ, ฟีเจอร์ Video Call, การเชื่อมต่อระบบเกรดของมหาวิทยาลัย |
 
 ## 6. Assumptions / Dependencies
 
