@@ -4,4 +4,4 @@
 
 | Date | Tool | Purpose | Input Summary (ไม่ใส่ข้อมูลลับ) | Output Used | Human Verification / Revision | Related File |
 |---|---|---|---|---|---|---|
-| [date] | [tool] | brainstorm / proofread / diagram idea | [สรุป] | [ใช้ส่วนใด] | [ตรวจ/แก้อย่างไร] | `docs/...` |
+| 2026-10-05 | OpenAI Codex | ตรวจ W10/W11 กับ workshop checklist และจัดทำ C4 diagram drafts | SRS v1, W10/W11, Miro summary image และ checklist ที่ผู้ใช้ส่ง | ปรับ traceability/สถานะที่ยัง TBD, จำกัด Architecture Decision Cards เหลือ 3, จัดทำ C4 PNG exports | ตรวจรหัสกับ SRS และตรวจภาพ export; **การตรวจทานโดยสมาชิก/คู่ยัง pending** | `design/10-design-strategy.md`, `design/11-conceptual-architecture.md`, `diagrams/architecture/` |
