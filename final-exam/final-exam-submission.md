@@ -23,11 +23,11 @@
 
 ## ไฟล์ที่ส่ง
 
-- [ ] `final-exam/final-exam-group-answer.docx`
-- [ ] `final-exam/diagrams/context-after.drawio` + `.png`
-- [ ] `final-exam/diagrams/container-after.drawio` + `.png`
-- [ ] `final-exam/final-exam-submission.md` (ไฟล์นี้)
-- [ ] `final-exam/ai-use-log.md`
+- [x] `final-exam/final-exam-group-answer.docx`
+- [x] `final-exam/diagrams/context-after.drawio` + `.png`
+- [x] `final-exam/diagrams/container-after.drawio` + `.png`
+- [x] `final-exam/final-exam-submission.md` (ไฟล์นี้)
+- [x] `final-exam/ai-use-log.md`
 
 ## สมาชิกและส่วนที่รับผิดชอบ
 
@@ -40,7 +40,7 @@
 
 ## รับรอง
 
-- [ ] สมาชิกทุกคนอ่านคำตอบทั้งฉบับ และอธิบายส่วนใดก็ได้ใน oral spot-check
-- [ ] ไม่มีตัวเลข นโยบาย หรือ protocol ที่แต่งขึ้น — ค่าที่ไม่รู้เป็น TBD และมี OI หรือ DD รองรับ
-- [ ] ไม่อ้างว่า SRS หรือ CR ใด Approved
-- [ ] ไม่ได้แก้ไฟล์งานเดิมของแต่ละสัปดาห์ — ทุกอย่างอยู่ใน `final-exam/`
+- [x] สมาชิกทุกคนอ่านคำตอบทั้งฉบับ และอธิบายส่วนใดก็ได้ใน oral spot-check
+- [x] ไม่มีตัวเลข นโยบาย หรือ protocol ที่แต่งขึ้น — ค่าที่ไม่รู้เป็น TBD และมี OI หรือ DD รองรับ
+- [x] ไม่อ้างว่า SRS หรือ CR ใด Approved
+- [x] ไม่ได้แก้ไฟล์งานเดิมของแต่ละสัปดาห์ — ทุกอย่างอยู่ใน `final-exam/`
